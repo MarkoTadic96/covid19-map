@@ -13,7 +13,10 @@ export default function Header(props: IHeaderProps) {
       <img src={coronaLogo} alt="" className="logo" />
       <div className="name">corona tracker</div>
       <div className="links">
-        <img src={githubLogo} alt="" className="githubLogo" />
+        <a href="https://github.com/MarkoTadic96/covid19-map">
+          <img src={githubLogo} alt="" className="githubLogo" />
+        </a>
+
         <a href="https://leafletjs.com/">
           <img src={leafletLogo} alt="" className="leafletLogo" />
         </a>
