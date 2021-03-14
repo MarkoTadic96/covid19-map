@@ -103,14 +103,14 @@ export default function CountryDetails(props: ICountryDetailsProps) {
                 onClick={() => setShowsDeaths(!showDeaths)}
               >
                 {" "}
-                showDeaths{" "}
+                {showDeaths ? "Hide Deaths" : "Show Deaths"}
               </button>
               <button
                 className="buttonCases"
                 onClick={() => setShowsCases(!showCases)}
               >
                 {" "}
-                showCases{" "}
+                {showCases ? "Hide cases" : "Show Cases"}
               </button>
             </div>
           </div>
