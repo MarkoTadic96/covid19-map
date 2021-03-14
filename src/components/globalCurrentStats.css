@@ -1,0 +1,39 @@
+.currentStats {
+  display: grid;
+  max-width: 100%;
+  grid-template-columns: repeat(3, 33.33%);
+  gap: 0px;
+  grid-auto-rows: minmax(50px, auto);
+  grid-column: 1 / 7;
+  grid-row: 1;
+  align-content: center;
+  font-size: large;
+  letter-spacing: 1px;
+  line-height: 200%;
+  padding-bottom: 2%;
+}
+.otherStats {
+  grid-column: 0;
+  padding: 1%;
+  border: solid;
+  border-color: rgb(37, 37, 37);
+  background-color: #961a1a;
+  border-width: thick;
+}
+.total {
+  grid-column: 1;
+  padding: 1%;
+  border: solid;
+  border-color: rgb(37, 37, 37);
+  background-color: #961a1a;
+  border-width: thick;
+}
+
+.today {
+  padding: 1%;
+  grid-column: 2;
+  border: solid;
+  border-color: rgb(37, 37, 37);
+  background-color: #961a1a;
+  border-width: thick;
+}
