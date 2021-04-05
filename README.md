@@ -1,46 +1,137 @@
-# Getting Started with Create React App
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the covid19-map and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** MarkoTadic96, covid19-map, twitter_handle, email, covid19-map, project_description
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-## Available Scripts
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/MarkoTadic96/covid19-map">
+    <img src="src/components/coronaLogo.png" alt="Logo" width="150">
+  </a>
+  <p align="center">
+    Track Covid-19 globally on one place
+    <br />
+    <a href="https://markotadic96.github.io/covid19-map/"><strong>View Demo »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/MarkoTadic96/covid19-map/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/MarkoTadic96/covid19-map/issues">Request Feature</a>
+  </p>
+</p>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ABOUT THE PROJECT -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+[![Product Name Screen Shot](src/screenshot.png)](src/screenshot.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a Web App that contains up to date informations about current development of Covid-19 pandemic worldwide.
 
-### `npm run build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![Typescript][ts-logo]](https://www.typescriptlang.org)
+[![Typescript][react-logo]](https://reactjs.org)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To get a local copy up and running follow these simple steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Clone the covid19-map
+   ```sh
+   git clone https://github.com/MarkoTadic96/covid19-map.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-## Learn More
+<!-- CONTRIBUTING -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/MarkoTadic96/covid19-map.svg?style=flat
+[contributors-url]: https://github.com/MarkoTadic96/covid19-map/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MarkoTadic96/covid19-map.svg?style=flat
+[forks-url]: https://github.com/MarkoTadic96/covid19-map/network/members
+[stars-shield]: https://img.shields.io/github/stars/MarkoTadic96/covid19-map.svg?style=flat
+[stars-url]: https://github.com/MarkoTadic96/covid19-map/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MarkoTadic96/covid19-map.svg?style=flat
+[issues-url]: https://github.com/MarkoTadic96/covid19-map/issues
+[license-shield]: https://img.shields.io/github/license/MarkoTadic96/covid19-map
+[license-url]: https://github.com/MarkoTadic96/covid19-map/blob/master/LICENSE?style=flat
+[ts-logo]: https://img.shields.io/static/v1?label=&message=Typescript&color=007acc&logo=typescript&logoColor=white&style=flat
+[react-logo]: https://img.shields.io/static/v1?label=&message=React&color=61DBFB&logo=react&logoColor=white&style=flat
